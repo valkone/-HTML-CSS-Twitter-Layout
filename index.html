@@ -1,0 +1,255 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Barbie's Twitter</title>
+    <link rel="stylesheet" href="styles/style.css"/>
+    <script type="text/javascript" src="modernizr.js"></script>
+    <!--[if lt IE 8]>
+    <script src="dist/html5shiv.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <div class="wrap">
+        <header id="main-header">
+            <div id="header-left">
+                <nav>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Notifications<span>0</span></a></li>
+                        <li><a href="#">Discover</a></li>
+                        <li><a href="#">Me</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="header-center">
+                <img src="images/twitterLogo.png" alt="logo" title="Twitter" />
+            </div>
+            <div id="header-right">
+                <form method="get" action="index.html">
+                    <input type="text" id="search-input" placeholder="Search" />
+                    <input type="submit" id="search-submit" value="" />
+                </form>
+                <ul>
+                    <li><a href="#"><div id="messages"></div></a></li>
+                    <li><a href="#"><div id="settings"></div></a></li>
+                    <li><a href="#"><div id="composeTweet"></div></a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+        </header>
+
+        <div id="content">
+            <div id="content-left">
+                <div id="profile-info">
+                        <div id="height-div"></div>
+                        <div id="profile-pic"><img src="https://pbs.twimg.com/profile_images/466664514033680384/3q8AB5TE.jpeg" alt="Barbie profile pic" titkle="Barbie" /></div>
+                        <div id="name-username">
+                            <div id="profile-name">BARBIE</div>
+                            <div id="username">@barbie</div>
+                        </div>
+                        <div id="bottom-info">
+                            <div class="table">
+                                <div class="row">
+                                    <div class="col">TWEETS</div>
+                                    <div class="col">FOLLOWING</div>
+                                    <div class="col">FOLLOWERS</div>
+                                </div>
+                                <div class="row" id="second-row">
+                                    <div class="col">2</div>
+                                    <div class="col">26</div>
+                                    <div class="col">1198451</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="compose-tweet-div">
+                            <form method="post" action="index.html">
+                                <input type="text" placeholder="Compose new Tweet..." id="compose-tweet-input" />
+                            </form>
+                        </div>
+                </div>
+                <div id="trends">
+                    <header class="box-title">
+                        Trends <span> · <a href="#" class="blue-link">Change</a></span>
+                    </header>
+                    <ul>
+                        <li><a href="#" class="blue-link">Zelda</a></li>
+                        <li><a href="#" class="blue-link">Rik Mayall</a></li>
+                        <li><a href="#" class="blue-link">Word Cup</a></li>
+                        <li><a href="#" class="blue-link">#SMBE14</a></li>
+                        <li><a href="#" class="blue-link">Happy Diwali</a></li>
+                        <li><a href="#" class="blue-link">Steve Jobs</a></li>
+                        <li><a href="#" class="blue-link">Rooms</a></li>
+                        <li><a href="#" class="blue-link">Halloween</a></li>
+                        <li><a href="#" class="blue-link">Zach Galifianakis</a></li>
+                        <li><a href="#" class="blue-link">#AgeofUltron</a></li>
+                    </ul>
+                </div>
+            </div>
+            <main>
+                <header class="box-title">
+                    Tweets
+                </header>
+                <div class="hr"></div>
+                <div class="tweet-content">
+                    <div class="tweet-avatar"><img src="https://pbs.twimg.com/profile_images/526023800014397440/EdHE8vAq.jpeg" /></div>
+                    <div class="tweet">
+                        <div class="from"><a href="#">Discovery</a> @Discovery</div>
+                        <div class="date">3m</div>
+                        <div class="text">Q: How do you get a blonde to marry you?<br />A: Tell her she's pregnant.</div>
+                    </div>
+                    <div class="clear"></div>
+                    <footer>
+                        <div class="view-summary">
+                            <a href="#" class="blue-link"><span class="summary-icon"></span>View summary</a>
+                        </div>
+                        <div class="tweet-options">
+                            <ul>
+                                <li><a href="#">Reply</a></li>
+                                <li><a href="#">Retweet</a></li>
+                                <li><a href="#">Favorite</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="hr"></div>
+                    </footer>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweet-avatar"><img src="https://pbs.twimg.com/profile_images/506879346162671616/Dubu0oa3.png" /></div>
+                    <div class="tweet">
+                        <div class="from"><a href="#">Ellen DeGeneres</a> @TheElenShow</div>
+                        <div class="date">4m</div>
+                        <div class="text">Q: What can strike a blonde without her even knowing it? A: A thought</div>
+                    </div>
+                    <div class="clear"></div>
+                    <footer>
+                        <div class="view-summary">
+                            <a href="#" class="blue-link"><span class="summary-icon"></span>View summary</a>
+                        </div>
+                        <div class="tweet-options">
+                            <ul>
+                                <li><a href="#">Reply</a></li>
+                                <li><a href="#">Retweet</a></li>
+                                <li><a href="#">Favorite</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="hr"></div>
+                    </footer>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweet-avatar"><img src="https://pbs.twimg.com/profile_images/455425878395068416/Ld-G0Des_400x400.png" /></div>
+                    <div class="tweet">
+                        <div class="from"><a href="#">Royal Dutch Airlines</a>@klm</div>
+                        <div class="date">12m</div>
+                        <div class="text">Q: Why do brunettes work hard to keep their figure?<br />A: No one else wants.</div>
+                    </div>
+                    <div class="clear"></div>
+                    <footer>
+                        <div class="view-summary">
+                            <a href="#" class="blue-link"><span class="summary-icon"></span>View summary</a>
+                        </div>
+                        <div class="tweet-options">
+                            <ul>
+                                <li><a href="#">Reply</a></li>
+                                <li><a href="#">Retweet</a></li>
+                                <li><a href="#">Favorite</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="hr"></div>
+                    </footer>
+                </div>
+                <div class="tweet-content">
+                    <div class="tweet-avatar"><img src="https://pbs.twimg.com/profile_images/516977577836027905/-YIa4G2R_reasonably_small.jpeg" /></div>
+                    <div class="tweet">
+                        <div class="from"><a href="#">National Geographic</a> @NatGeo </div>
+                        <div class="date">23m</div>
+                        <div class="text">Q: What did the blonde name her watch dogs?<br />A: Timex and Rolex</div>
+                    </div>
+                    <div class="clear"></div>
+                    <footer>
+                        <div class="view-summary">
+                            <a href="#" class="blue-link"><span class="summary-icon"></span>View summary</a>
+                        </div>
+                        <div class="tweet-options">
+                            <ul>
+                                <li><a href="#">Reply</a></li>
+                                <li><a href="#">Retweet</a></li>
+                                <li><a href="#">Favorite</a></li>
+                                <li><a href="#">More</a></li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                        <div class="hr"></div>
+                    </footer>
+                </div>
+            </main>
+            <aside>
+                <div id="who-to-follow-content">
+                    <header class="box-title">
+                        Who to follow <span>·</span> <a href="#" class="blue-link">Refresh</a> <span>·</span> <a href="#" class="blue-link">View all</a>
+                    </header>
+                    <div class="to-follow">
+                        <div class="to-follow-pic"><a href="#"><img src="https://pbs.twimg.com/profile_images/488906749697478656/elgT1abh_400x400.jpeg" /></a></div>
+                        <div class="to-follow-content">
+                            <div class="to-follow-name">
+                                <a href="#">Demi Lovato<img src="images/verifiedIcon.png" alt="verified" title="verified" /></a>@ddlovato <span></span>
+                            </div>
+                            <button class="follow">Follow</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="to-follow">
+                        <div class="to-follow-pic"><a href="#"><img src="https://pbs.twimg.com/profile_images/423976765573197824/H8DOsOPm_400x400.jpeg" /></a></div>
+                        <div class="to-follow-content">
+                            <div class="to-follow-name">
+                                <a href="#">Justin Timberlake<img src="images/verifiedIcon.png" alt="verified" title="verified" /></a>@jtimberl...<span></span>
+                            </div>
+                            <button class="follow">Follow</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="to-follow">
+                        <div class="to-follow-pic"><a href="#"><img src="https://pbs.twimg.com/profile_images/1194467116/new-resize-square_400x400.jpg" /></a></div>
+                        <div class="to-follow-content">
+                            <div class="to-follow-name">
+                                <a href="#">Jimmy fallon<img src="images/verifiedIcon.png" alt="verified" title="verified" /></a>@jimmyfallon <span></span>
+                            </div>
+                            <button class="follow">Follow</button>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                    <div class="hr"></div>
+                    <footer>
+                        <div id="find-icon"></div> <a href="#" class="blue-link">Find people you know</a> <span>·</span> <a href="#" class="blue-link">Popular accounts</a>
+                    </footer>
+                </div>
+                <footer id="main-footer">
+                    <p>&copy; 2014 Twitter</p>
+                    <a href="#">About</a>
+                    <a href="#">Help</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookies</a>
+                    <a href="#">Ads info</a>
+                    <a href="#">Brand</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Status</a><br />
+                    <a href="#">Apps</a>
+                    <a href="#">Jobs</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">Businesses</a>
+                    <a href="#">Media</a>
+                    <a href="#">Developers</a>
+                </footer>
+            </aside>
+            <div class="clear"></div>
+        </div>
+    </div>
+</body>
+</html>
